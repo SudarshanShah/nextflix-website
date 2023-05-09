@@ -1,5 +1,4 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
 import Header from "@/app/components/Header";
 import { Mulish } from 'next/font/google';
 
@@ -8,8 +7,6 @@ const mulish = Mulish({
     subsets: ['latin'],
     display: 'swap',
 });
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',

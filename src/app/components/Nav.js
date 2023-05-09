@@ -13,19 +13,19 @@ const Nav = () => {
                 </li>
 
                 <li className={styles.navbarItem}>
-                    <Link className={styles.navbarLink} href="/about">
+                    <Link className={styles.navbarLink} href={"/about"}>
                         About
                     </Link>
                 </li>
 
                 <li className={styles.navbarItem}>
-                    <Link className={styles.navbarLink} href="/movie">
+                    <Link className={styles.navbarLink} href={"/movie"}>
                         Movie
                     </Link>
                 </li>
 
                 <li className={styles.navbarItem}>
-                    <Link className={styles.navbarLink} href="/contact">
+                    <Link className={styles.navbarLink} href={"/contact"}>
                         Contact
                     </Link>
                 </li>
