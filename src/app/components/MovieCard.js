@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const MovieCard = (curElm) => {
 
-    const {id, type, title, synopsis} = curElm.jawSummary;
+    const {id, title, synopsis} = curElm.jawSummary;
 
     return (
         <>
