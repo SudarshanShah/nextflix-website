@@ -1,10 +1,22 @@
 import React from 'react';
+import ContactCard from "@/app/components/ContactCard";
+import styles from "./contact.module.css";
+import ContactForm from "@/app/components/ContactForm";
 
 const Contact = () => {
     return (
-        <div>
-            <h1>Contact Page</h1>
-        </div>
+        <>
+            <div className={styles.container}>
+                <h1>Contact Page</h1>
+                <ContactCard/>
+
+                <section className={styles.contact_section}>
+                    <h2>We&apos;d love to hear <span> from you </span></h2>
+
+                    <ContactForm />
+                </section>
+            </div>
+        </>
     );
 };
 
